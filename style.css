@@ -1,9 +1,17 @@
-body{
+.body{
     background-color: #c467f0;
     
 }
 .namewala{
     width: 50%;
+    height: 750px;
+    border: 2px solid rgb(5, 5, 5);
+    text-align: center;
+    margin: 50px;
+    margin-left: 350px;
+    background-color: #988e9ca6;
+    border-radius: 25px;
+    
     
     
 }
@@ -37,6 +45,8 @@ body{
     margin-left: 25%;
     height: 35px;
     background-color:  #ee9179;
+    width: 95px;
+    margin-left: -5px;
 }
 #btn1:hover{
     cursor: pointer;
@@ -50,7 +60,7 @@ body{
 #operation{
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 40px;
     margin-right: 50px;
     height: 30px;
     width: 150px;
@@ -79,7 +89,7 @@ h4{
    
 
     body{
-        background-color: #a5c54e;
+        background-color: #3d3f42;
         display: inline;
     }
     .calculator{

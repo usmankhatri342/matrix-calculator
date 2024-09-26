@@ -39,7 +39,7 @@ calculateBtn.addEventListener("click", () => {
             }
         }
     }
-    resultMatrixDiv.innerHTML = "<h2>Resulting Matrix:</h2>";
+    resultMatrixDiv.innerHTML = "<h2>Result:</h2>";
     for (let i = 0; i < matrixLength; i++) {
         for (let j = 0; j < matrixLength; j++) {
             resultMatrixDiv.innerHTML += `<input type="number" id="result-${i}-${j}" style="width: 30px;" value="${resultMatrix[i][j]}" disabled>`;
